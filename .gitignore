@@ -1,0 +1,34 @@
+# 后端忽略
+hotely5d/target/
+hotely5d/.idea/
+hotely5d/*.iml
+*.class
+*.log
+*.jar
+
+# 前端忽略
+hotely5d-web/node_modules/
+hotely5d-web/dist/
+hotely5d-web/.env
+hotely5d-web/.env.local
+hotely5d-web/.env.*.local
+hotely5d-web/npm-debug.log*
+hotely5d-web/yarn-debug.log*
+hotely5d-web/yarn-error.log*
+
+# 系统文件
+.DS_Store
+Thumbs.db
+*.iml
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 日志文件
+logs/
+*.log
+
+# 临时文件
+tmp/
+temp/
